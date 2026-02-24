@@ -5,6 +5,7 @@ export interface Recipe {
   ingredients: string[];
   instructions: string[];
   tips: string;
+  notes?: string; // Optional field to handle API responses
 }
 
 export type EggsStatus = 'unknown' | 'yes' | 'no';
