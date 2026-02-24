@@ -17,14 +17,14 @@ export function ApiKeyStep({ onSubmit }: ApiKeyStepProps) {
 
   return (
     <div className={styles.card}>
-      <h2 className={styles.heading}>🔑 OpenAI API Key</h2>
+      <h2 className={styles.heading}>🔑 Mistral API Key</h2>
       <form onSubmit={handleSubmit}>
         <div className={styles.inputGroup}>
           <input
             type="password"
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
-            placeholder="sk-..."
+            placeholder="YOUR_MISTRAL_API_KEY"
             className={styles.input}
           />
           <p className={styles.hint}>
